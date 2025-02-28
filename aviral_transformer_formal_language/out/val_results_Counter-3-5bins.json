@@ -1,0 +1,51 @@
+{
+    "testrun": {
+        "run_name": "testrun",
+        "train_acc": 0.0,
+        "best_train_epoch": 25,
+        "train_loss": 0.012807402526959777,
+        "lang": "Dyck",
+        "use_emb": false,
+        "emb_size": 64,
+        "model_type": "SAN",
+        "cell_type": "LSTM",
+        "hidden_size": 64,
+        "d_model": 32,
+        "heads": 1,
+        "depth": 1,
+        "dropout": 0.0,
+        "lr": 0.005,
+        "batch_size": 32,
+        "epochs": 25,
+        "opt": "rmsprop",
+        "Dyck-n": 2,
+        "train_size": 10000,
+        "test_size": 500,
+        "window": [
+            2,
+            100
+        ],
+        "pq": [
+            0.5,
+            0.25
+        ],
+        "generalize": true,
+        "dataset": "Counter-3-5bins",
+        "pos_encode": false,
+        "seed": 1729,
+        "pos_encode_type": "absolute",
+        "max_period": 10000.0,
+        "max_val_acc_bin0": 0.0,
+        "best_epoch_bin0": 0,
+        "max_val_acc_bin1": 0.0,
+        "best_epoch_bin1": 0,
+        "max_val_acc_bin2": 0.0,
+        "best_epoch_bin2": 0,
+        "max_val_acc_bin3": 0.0,
+        "best_epoch_bin3": 0,
+        "max_val_acc_bin4": 0.0,
+        "best_epoch_bin4": 0,
+        "max_val_acc_bin5": 0.0,
+        "best_epoch_bin5": 0
+    }
+}

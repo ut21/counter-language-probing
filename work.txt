@@ -1,0 +1,12 @@
+1) linear probes:
+    a) change evaluation to be on test
+    b) make control task - the current task is correct i think
+    c) ablate for selectivity across probing classifier complexity
+
+2) non linear prboes:
+    a) change evaluation to be on test
+    b) make control task - the current task is correct i think
+    c) ablate for selectivity across probing classifier complexity
+
+3) other tasks:
+    a) Dyck/polish notation arithmetic train the model and then test for stack

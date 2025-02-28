@@ -1,0 +1,438 @@
+2024-12-28 23:27:43,640 | DEBUG | main.py: 235 : main() ::	 Created Relevant Directories
+2024-12-28 23:27:43,641 | INFO | main.py: 236 : main() ::	 Experiment Name: testrun_shuffle
+2024-12-28 23:27:43,641 | DEBUG | main.py: 241 : main() ::	 Creating Vocab and loading Data ...
+2024-12-28 23:27:43,641 | DEBUG | main.py: 64 : load_data() ::	 Loading Training Data...
+2024-12-28 23:27:44,549 | INFO | main.py: 104 : load_data() ::	 Training and Validation Data Loaded:
+Train Size: 10000
+2024-12-28 23:27:44,550 | INFO | main.py: 244 : main() ::	 Vocab Created with number of words : 5
+2024-12-28 23:27:44,555 | INFO | main.py: 249 : main() ::	 Vocab saved at models/testrun_shuffle/vocab.p
+2024-12-28 23:27:44,555 | DEBUG | model.py: 45 : __init__() ::	 Initalizing Model...
+2024-12-28 23:27:44,753 | DEBUG | model.py: 48 : __init__() ::	 Initalizing Optimizer and Criterion...
+2024-12-28 23:27:44,754 | INFO | main.py: 289 : main() ::	 Initialized Model
+2024-12-28 23:27:44,760 | DEBUG | main.py: 294 : main() ::	 Config File Saved
+2024-12-28 23:27:44,760 | INFO | main.py: 296 : main() ::	 Starting Training Procedure
+2024-12-28 23:27:44,790 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 1	
+2024-12-28 23:27:51,303 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 1 completed...
+Time Taken: 0.10853866736094157
+2024-12-28 23:27:51,304 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:28:05,586 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin0 : 0.24480820105820106
+2024-12-28 23:28:05,587 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_1.pt
+2024-12-28 23:28:05,600 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 1	
+ train loss: 0.03887290230538613	
+ train acc: 0.17745607028753996	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.24480820105820106	
+ max val acc bin0: 0.24480820105820106	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.0	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.0	
+2024-12-28 23:28:05,640 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 2	
+2024-12-28 23:28:12,918 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 2 completed...
+Time Taken: 0.12128663063049316
+2024-12-28 23:28:12,919 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:28:27,230 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin0 : 0.5198743386243386
+2024-12-28 23:28:27,231 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_2.pt
+2024-12-28 23:28:27,242 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 2	
+ train loss: 0.013460097213152248	
+ train acc: 0.4656882321618743	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.5198743386243386	
+ max val acc bin0: 0.5198743386243386	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.0	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.0	
+2024-12-28 23:28:27,281 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 3	
+2024-12-28 23:28:33,036 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 3 completed...
+Time Taken: 0.0958740512530009
+2024-12-28 23:28:33,036 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:28:47,396 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin0 : 0.9995039682539683
+2024-12-28 23:28:47,397 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.6648478835978836
+2024-12-28 23:28:47,397 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin2 : 0.001984126984126984
+2024-12-28 23:28:47,398 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_3.pt
+2024-12-28 23:28:47,410 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 3	
+ train loss: 0.006030260460249611	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.9995039682539683	
+ max val acc bin0: 0.9995039682539683	
+ val acc epoch bin1: 0.6648478835978836	
+ max val acc bin1: 0.6648478835978836	
+ val acc epoch bin2: 0.001984126984126984	
+ max val acc bin2: 0.001984126984126984	
+2024-12-28 23:28:47,452 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 4	
+2024-12-28 23:28:54,179 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 4 completed...
+Time Taken: 0.11210671663284302
+2024-12-28 23:28:54,180 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:29:08,534 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin0 : 1.0
+2024-12-28 23:29:08,534 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_4.pt
+2024-12-28 23:29:08,549 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 4	
+ train loss: 0.01132970766441674	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.6440145502645502	
+ max val acc bin1: 0.6648478835978836	
+ val acc epoch bin2: 0.001488095238095238	
+ max val acc bin2: 0.001984126984126984	
+2024-12-28 23:29:08,596 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 5	
+2024-12-28 23:29:14,832 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 5 completed...
+Time Taken: 0.10392460028330484
+2024-12-28 23:29:14,832 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:29:29,260 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.8446759259259259
+2024-12-28 23:29:29,261 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin2 : 0.04662698412698413
+2024-12-28 23:29:29,261 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_5.pt
+2024-12-28 23:29:29,273 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 5	
+ train loss: 1.538302801756695e-05	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.8446759259259259	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.04662698412698413	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:29:29,312 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 6	
+2024-12-28 23:29:35,604 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 6 completed...
+Time Taken: 0.10481307903925578
+2024-12-28 23:29:35,604 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:29:49,980 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 6	
+ train loss: 0.0253914015129572	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.9995039682539683	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.622255291005291	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.005456349206349206	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:29:50,026 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 7	
+2024-12-28 23:29:56,651 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 7 completed...
+Time Taken: 0.11040337880452473
+2024-12-28 23:29:56,652 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:30:11,019 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 7	
+ train loss: 0.0048428445124264925	
+ train acc: 0.001297923322683706	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.003968253968253968	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:30:11,059 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 8	
+2024-12-28 23:30:16,978 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 8 completed...
+Time Taken: 0.09860224723815918
+2024-12-28 23:30:16,979 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:30:31,441 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 8	
+ train loss: 0.015912711018948505	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.7490079365079365	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:30:31,483 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 9	
+2024-12-28 23:30:38,539 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 9 completed...
+Time Taken: 0.11759121815363566
+2024-12-28 23:30:38,540 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:30:52,871 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 9	
+ train loss: 0.007402162433856993	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.7101190476190475	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.044642857142857144	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:30:52,914 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 10	
+2024-12-28 23:30:58,635 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 10 completed...
+Time Taken: 0.09532738129297892
+2024-12-28 23:30:58,635 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:31:12,967 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 10	
+ train loss: 0.0043744622984178885	
+ train acc: 0.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.8446759259259259	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:31:13,007 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 11	
+2024-12-28 23:31:20,226 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 11 completed...
+Time Taken: 0.12029644648234049
+2024-12-28 23:31:20,226 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:31:34,651 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.8604166666666666
+2024-12-28 23:31:34,651 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_11.pt
+2024-12-28 23:31:34,664 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 11	
+ train loss: 0.01381797819896584	
+ train acc: 0.9999001597444089	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.9990079365079365	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.8604166666666666	
+ max val acc bin1: 0.8604166666666666	
+ val acc epoch bin2: 0.027281746031746032	
+ max val acc bin2: 0.04662698412698413	
+2024-12-28 23:31:34,702 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 12	
+2024-12-28 23:31:40,449 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 12 completed...
+Time Taken: 0.09577419757843017
+2024-12-28 23:31:40,449 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:31:54,799 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.9737103174603174
+2024-12-28 23:31:54,800 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin2 : 0.2720238095238095
+2024-12-28 23:31:54,800 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_12.pt
+2024-12-28 23:31:54,813 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 12	
+ train loss: 0.0043843165986210296	
+ train acc: 0.9999001597444089	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.9737103174603174	
+ max val acc bin1: 0.9737103174603174	
+ val acc epoch bin2: 0.2720238095238095	
+ max val acc bin2: 0.2720238095238095	
+2024-12-28 23:31:54,855 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 13	
+2024-12-28 23:32:02,068 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 13 completed...
+Time Taken: 0.12020948727925619
+2024-12-28 23:32:02,069 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:32:16,381 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 13	
+ train loss: 0.004258242700280461	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.9330357142857143	
+ max val acc bin1: 0.9737103174603174	
+ val acc epoch bin2: 0.2533068783068783	
+ max val acc bin2: 0.2720238095238095	
+2024-12-28 23:32:16,421 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 14	
+2024-12-28 23:32:22,138 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 14 completed...
+Time Taken: 0.09522584279378256
+2024-12-28 23:32:22,138 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:32:36,418 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 14	
+ train loss: 0.007129863126455908	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.9995039682539683	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.750297619047619	
+ max val acc bin1: 0.9737103174603174	
+ val acc epoch bin2: 0.000496031746031746	
+ max val acc bin2: 0.2720238095238095	
+2024-12-28 23:32:36,460 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 15	
+2024-12-28 23:32:43,634 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 15 completed...
+Time Taken: 0.11956367095311483
+2024-12-28 23:32:43,635 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:32:57,918 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 15	
+ train loss: 0.0036465880519683585	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.8343253968253969	
+ max val acc bin1: 0.9737103174603174	
+ val acc epoch bin2: 0.14348544973544972	
+ max val acc bin2: 0.2720238095238095	
+2024-12-28 23:32:57,958 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 16	
+2024-12-28 23:33:03,677 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 16 completed...
+Time Taken: 0.09526475270589192
+2024-12-28 23:33:03,678 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:33:18,012 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 16	
+ train loss: 0.007161139911553787	
+ train acc: 0.555770766773163	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.5857804232804233	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.9737103174603174	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.2720238095238095	
+2024-12-28 23:33:18,055 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 17	
+2024-12-28 23:33:25,243 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 17 completed...
+Time Taken: 0.11979175806045532
+2024-12-28 23:33:25,244 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:33:39,541 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.9811507936507936
+2024-12-28 23:33:39,541 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin2 : 0.3843253968253968
+2024-12-28 23:33:39,542 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_17.pt
+2024-12-28 23:33:39,553 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 17	
+ train loss: 0.0024647906307748487	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.9811507936507936	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.3843253968253968	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:33:39,590 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 18	
+2024-12-28 23:33:45,325 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 18 completed...
+Time Taken: 0.09557729164759318
+2024-12-28 23:33:45,325 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:33:59,564 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 18	
+ train loss: 0.005408424535725166	
+ train acc: 0.14058839190628328	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.2125	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:33:59,608 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 19	
+2024-12-28 23:34:06,652 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 19 completed...
+Time Taken: 0.11737860043843587
+2024-12-28 23:34:06,653 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:34:21,230 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 19	
+ train loss: 0.002326065421129897	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.8615410052910052	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.02976190476190476	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:34:21,272 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 20	
+2024-12-28 23:34:27,114 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 20 completed...
+Time Taken: 0.09735342661539713
+2024-12-28 23:34:27,115 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:34:41,391 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 20	
+ train loss: 0.005847185941947915	
+ train acc: 0.009784345047923323	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.01488095238095238	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:34:41,436 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 21	
+2024-12-28 23:34:48,271 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 21 completed...
+Time Taken: 0.1139009435971578
+2024-12-28 23:34:48,272 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:35:02,585 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 21	
+ train loss: 0.0029605754968805137	
+ train acc: 0.11602768903088392	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.1802579365079365	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.0	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:35:02,628 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 22	
+2024-12-28 23:35:08,392 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 22 completed...
+Time Taken: 0.09605964422225952
+2024-12-28 23:35:08,393 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:35:22,716 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 22	
+ train loss: 0.004315858825831177	
+ train acc: 0.41097577209797653	
+ lr epoch: 0.005	
+ val acc epoch bin0: 0.42698412698412697	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.000496031746031746	
+ max val acc bin1: 0.9811507936507936	
+ val acc epoch bin2: 0.0	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:35:22,756 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 23	
+2024-12-28 23:35:29,468 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 23 completed...
+Time Taken: 0.11181779702504475
+2024-12-28 23:35:29,469 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:35:44,051 | DEBUG | model.py: 288 : train_model() ::	 Validation Accuracy bin1 : 0.9846230158730159
+2024-12-28 23:35:44,052 | INFO | helper.py: 47 : save_checkpoint() ::	 Saving Checkpoint at : models/testrun_shuffle/model_23.pt
+2024-12-28 23:35:44,078 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 23	
+ train loss: 0.0012391452165188596	
+ train acc: 0.9999001597444089	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.9846230158730159	
+ max val acc bin1: 0.9846230158730159	
+ val acc epoch bin2: 0.329265873015873	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:35:44,129 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 24	
+2024-12-28 23:35:50,079 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 24 completed...
+Time Taken: 0.09907447099685669
+2024-12-28 23:35:50,080 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:36:04,378 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 24	
+ train loss: 0.004315923076361583	
+ train acc: 0.9999001597444089	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.871031746031746	
+ max val acc bin1: 0.9846230158730159	
+ val acc epoch bin2: 0.11805555555555555	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:36:04,420 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 25	
+2024-12-28 23:36:10,861 | DEBUG | model.py: 264 : train_model() ::	 Training for epoch 25 completed...
+Time Taken: 0.10735023816426595
+2024-12-28 23:36:10,862 | DEBUG | model.py: 265 : train_model() ::	 Starting Validation
+2024-12-28 23:36:25,320 | INFO | logger.py: 38 : print_log() ::	 
+ Epoch: 25	
+ train loss: 0.0026271526521232562	
+ train acc: 1.0	
+ lr epoch: 0.005	
+ val acc epoch bin0: 1.0	
+ max val acc bin0: 1.0	
+ val acc epoch bin1: 0.9523809523809523	
+ max val acc bin1: 0.9846230158730159	
+ val acc epoch bin2: 0.26861772486772484	
+ max val acc bin2: 0.3843253968253968	
+2024-12-28 23:36:25,407 | INFO | model.py: 373 : train_model() ::	 Training Completed for 25 epochs
+2024-12-28 23:36:25,413 | INFO | model.py: 377 : train_model() ::	 Scores saved at ./out/val_results_Shuffle-2.json
